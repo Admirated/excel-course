@@ -103,6 +103,12 @@ export class Table extends ExcelComponent {
 
     const {key} = event
 
+    // if (key === 'Enter' && event.shiftKey) {
+    //   const id = this.selection.current.id(true)
+    //   const rows = this.$root.findAll(`[data-row="${id.row}"]`)
+    //   rows.forEach(row => row.style.height = '53px')
+    // }
+
     if (keys.includes(key) && !event.shiftKey) {
       event.preventDefault()
 
