@@ -27,11 +27,6 @@ function getAllKeys() {
   return keys
 }
 
-// function getDate(key) {
-//   const date = Date(key.split(':')[1]).toString()
-//   return date.split('GMT')[0]
-// }
-
 export function createRecordsTable() {
   const keys = getAllKeys()
   if (!keys.length) {
